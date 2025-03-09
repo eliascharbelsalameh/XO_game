@@ -90,10 +90,11 @@ java -jar game.jar
 ---
 
 ## 📑 Adjustments & UML Diagram
-- A detailed **Adjustments Document** ([Download PDF](sandbox:/mnt/data/UML_diagram.pdf)) contains the updates and justifications for the modifications made.
+- A detailed **Adjustments Document** ([Download PDF](https://github.com/eliascharbelsalameh/XO_game/blob/master/UML_diagram.pdf)) contains the updates and justifications for the modifications made.
 - Below is the **UML Diagram** visualizing the class relationships and structure:
 
-![UML Diagram](sandbox:/mnt/data/image.png)
+![UML Diagram](https://github.com/user-attachments/assets/ab51978e-7389-468b-8f65-28b03d898933)
+
 
 ## 🏆 Credits
 Developed by: Elias-Charbel Salameh on March 9, 2025.
