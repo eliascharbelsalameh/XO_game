@@ -89,6 +89,12 @@ java -jar game.jar
 
 ---
 
+## 📑 Adjustments & UML Diagram
+- A detailed **Adjustments Document** ([Download PDF](sandbox:/mnt/data/UML_diagram.pdf)) contains the updates and justifications for the modifications made.
+- Below is the **UML Diagram** visualizing the class relationships and structure:
+
+![UML Diagram](sandbox:/mnt/data/image.png)
+
 ## 🏆 Credits
 Developed by: Elias-Charbel Salameh on March 9, 2025.
 for **Object-Oriented Design (GIN314)** course.

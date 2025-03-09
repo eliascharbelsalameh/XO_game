@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="600" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- Main Class -->
+    <mxCell id="main" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    
+    <!-- Game Class -->
+    <mxCell id="game" value="Game" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    
+    <!-- Grid Class -->
+    <mxCell id="grid" value="Grid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="100" width="120" height="60" as="geometry"/>
+    </mxCell>
+    
+    <!-- Player Class -->
+    <mxCell id="player" value="Player" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="300" width="120" height="60" as="geometry"/>
+    </mxCell>
+    
+    <!-- Human Class -->
+    <mxCell id="human" value="Human" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="400" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- AI Class -->
+    <mxCell id="ai" value="AI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="400" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Square Class -->
+    <mxCell id="square" value="Square" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="300" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- CellX Class -->
+    <mxCell id="cellx" value="CellX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="400" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- CellO Class -->
+    <mxCell id="cello" value="CellO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="650" y="400" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Empty Class -->
+    <mxCell id="empty" value="Empty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="800" y="400" width="120" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Relationships -->
+    <mxCell id="rel1" edge="1" parent="1" source="main" target="game"/>
+    <mxCell id="rel2" edge="1" parent="1" source="game" target="grid"/>
+    <mxCell id="rel3" edge="1" parent="1" source="game" target="player"/>
+    <mxCell id="rel4" edge="1" parent="1" source="player" target="human"/>
+    <mxCell id="rel5" edge="1" parent="1" source="player" target="ai"/>
+    <mxCell id="rel6" edge="1" parent="1" source="grid" target="square"/>
+    <mxCell id="rel7" edge="1" parent="1" source="square" target="cellx"/>
+    <mxCell id="rel8" edge="1" parent="1" source="square" target="cello"/>
+    <mxCell id="rel9" edge="1" parent="1" source="square" target="empty"/>
+
+  </root>
+</mxGraphModel>

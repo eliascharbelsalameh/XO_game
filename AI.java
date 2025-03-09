@@ -1,6 +1,5 @@
-
 public class AI extends Player {
-    public final Game game;
+    private final Game game;
 
     public AI(String name, Game game) {
         super(name);

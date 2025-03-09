@@ -47,8 +47,6 @@ public final class Game {
             playerO = (typeO == '0') ? new Human(nameO) : new AI(nameO, this);
             playerO.setPlayerType('O');
         }
-        playerX.setTurn(true);
-        playerO.setTurn(false);
     }
 
 

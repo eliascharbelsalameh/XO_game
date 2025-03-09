@@ -1,34 +1,17 @@
-import java.util.ArrayList;
-
 public abstract class Player {
-    private final String name;
-    private boolean turn;
-    private ArrayList<Square> squares;
+    private String name;
     private char player_type;
-
+    
     public Player(String name) {
         this.name = name;
-        this.turn = false;
     }
-
+    
     public String getName() {
         return name;
     }
-
-    public boolean getTurn() {
-        return turn;
-    }
-
-    public void setTurn(boolean turn) {
-        this.turn = turn;
-    }
-
-    public void addSquare(Square square) {
-        squares.add(square);
-    }
-
-    public ArrayList<Square> getSquares() {
-        return squares;
+    
+    public void setName(String name) {
+        this.name = name;
     }
 
     public char getPlayerType() {
