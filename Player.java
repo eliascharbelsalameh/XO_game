@@ -1,15 +1,19 @@
 public abstract class Player {
     private String name;
     private char player_type;
-    
+
     public Player(String name) {
         this.name = name;
     }
-    
+
+    public Player(Player player) {
+        this.name = player.name;
+    }
+
     public String getName() {
         return name;
     }
-    
+
     public void setName(String name) {
         this.name = name;
     }

@@ -1,9 +1,9 @@
 public class Grid {
     private final static int HEIGHT = 3;
     private final static int WIDTH = 3;
-    
+
     private final Square[][] grid;
-    
+
     public Grid() {
         grid = new Square[HEIGHT][WIDTH];
         for (int i = 0; i < HEIGHT; i++) {
@@ -20,7 +20,7 @@ public class Grid {
                 this.grid[i][j] = other.getSquare(i, j);
             }
         }
-    }    
+    }
 
     public Square getSquare(int x, int y) {
         return grid[x][y];
@@ -55,19 +55,28 @@ public class Grid {
 
     @Override
     public String toString() {
-        
+
         for (int i = 0; i < HEIGHT; i++) {
-            if (i == 0){System.out.println("    1    2    3");}
+            if (i == 0) {
+                System.out.println("    1    2    3");
+            }
             System.out.print("  ");
-            for(int k = 0; k < HEIGHT; k++){ System.out.print("+---+"); }
+            for (int k = 0; k < HEIGHT; k++) {
+                System.out.print("+---+");
+            }
             System.out.println();
-            char[] letters = {'A', 'B', 'C'};
+            char[] letters = { 'A', 'B', 'C' };
             System.out.print(letters[i] + " ");
-            for (int j = 0; j < WIDTH; j++) { System.out.print("| " + grid[i][j].toString() + " |");}
+            for (int j = 0; j < WIDTH; j++) {
+                System.out.print("| " + grid[i][j].toString() + " |");
+            }
             System.out.println();
-            if (i == 2){
+            if (i == 2) {
                 System.out.print("  ");
-                for(int k = 0; k < HEIGHT; k++){ System.out.print("+---+"); }}
+                for (int k = 0; k < HEIGHT; k++) {
+                    System.out.print("+---+");
+                }
+            }
         }
         System.out.println();
         return "";
