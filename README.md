@@ -1,6 +1,10 @@
 # Tic-Tac-Toe Game (Java)
 
-This is a **Java-based Tic-Tac-Toe game** that supports both **human and AI players**. The AI will play using a **Minimax algorithm** for optimal strategy.
+This is a **Java-based Tic-Tac-Toe game** that supports both **human and AI players**. 
+
+---
+
+The AI will play using a **Minimax algorithm** for optimal strategy. This algorithm was discovered after a thorough research. Alternative algorithms like the heuristic algorithm showed faster results and a worst performance.
 
 ---
 
