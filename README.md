@@ -1,13 +1,18 @@
 # Tic-Tac-Toe Game (Java)
-**Java Version & Dependencies:**  
+---
+## ➕ Java Version & Dependencies: 
 - **Java Version:** JDK 8 or higher (JDK 11 or later is recommended)  
 - **Dependencies:** No external libraries required; the project uses only standard Java libraries.
 
+---
+
+## 📒 Abstract
 This is a **Java-based Tic-Tac-Toe game** that supports both **human and AI players**.
 
 ---
 
-The AI plays using a **Minimax algorithm** for optimal strategy, ensuring challenging gameplay. Alternative strategies were considered, but the Minimax approach delivers the best performance.
+The AI plays using a **Minimax algorithm** for optimal strategy, ensuring challenging gameplay.
+After a thorough research, the choice was between the heuristic and Minimax algorithms. The Minimax approach was kept since it delivers the best performance.
 
 ---
 
@@ -112,8 +117,8 @@ The AI plays using a **Minimax algorithm** for optimal strategy, ensuring challe
 │   ├── Human.java        # Human player logic
 │   ├── Grid.java         # Game board representation
 │   ├── Square.java       # Abstract square class
-│   ├── CellX.java        # Represents 'X' moves
-│   ├── CellO.java        # Represents 'O' moves
+│   ├── CellX.java        # Represents the 'X' child class
+│   ├── CellO.java        # Represents the 'O' child class
 │   ├── Empty.java        # Represents an empty square
 │   ├── Coordinate.java   # Predefined coordinate mappings
 │   ├── Type.java         # Color-coded X and O representation
